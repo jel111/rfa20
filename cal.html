@@ -26,8 +26,8 @@
 				center: 'title',
 				right: 'month,agendaWeek,agendaDay'
 			},
-			selectable: true,
-			selectHelper: true,
+			selectable: false,
+			selectHelper: false,
 			select: function(start, end) {
 			var title = prompt('Event Title:');
 			var eventData;
@@ -41,15 +41,15 @@
 			}
 			$('#calandar').fullCalendar('unselect');
 			},
-			editable: true,
+			editable: false,
 			eventLimit: true, // allow "more" link when too many events
 			
 				
 			events: [
 				{
-					title: 'Preparing for the test of Life',
-					start: '2016-07-28',
-					end: '2016-07-29'
+					title: 'Dubai National School - Dubai UAE',
+					start: '2017-01-06',
+					end: '2017-01-07'
 				},
 				/*{
 					title: 'Roechester, NY',
@@ -66,45 +66,101 @@
 					start: '2016-07-29'
 				},*/
 				{
-					title: 'Metuchen, NJ-Hold',
-					start: '2016-07-30',
+					title: 'Woodridge Dist. 68 Woodridge, IL',
+					start: '2017-01-09',
 					
 				},
 				{
-					title: 'RFA From Staffroom to Classroom Conference',
-					start: '2016-08-06',
+					title: 'Churchill County Schools -NV',
+					start: '2017-01-10',
 					
 				},
 				{
-					title: 'RFA From Staffroom to Classroom Conference',
-					start: '2016-08-07',
+					title: 'South Charlotte MS, Charlotte, NC',
+					start: '2017-01-13',
 					
 				},
 				
 				{
-					title: 'RFA From Staffroom to Classroom Conference',
-					start: '2016-08-08',
+					title: 'Eaton Community Schools Eaton, OH',
+					start: '2017-01-17',
 					
 				},
 				{
-					title: 'Leona Group, MI-hold',
-					start: '2016-08-27'
+					title: 'Diamond Tech HS Watsonville, CA',
+					start: '2017-01-17',
 				},
 				{
-					title: 'Leona Group, MI-hold',
-					start: '2016-08-28'
+					title: 'Dubai International School Dubai UAE',
+					start: '2017-01-20'
 				},
 				{
-					title: 'Hazlet Township, NJ ',
-					start: '2016-08-04'
+					title: 'Dubai International School Dubai UAE',
+					start: '2017-01-21'
 				},
 				{
-					title: 'Fairbanks AK-21st Century Classrooms',
-					start: '2016-08-08'
+					title: 'Dubai American Academy Dubai UAE',
+					start: '2017-02-07'
 				},
 				{
-					title: 'Fairbanks AK-21st Century Classrooms',
-					start: '2016-08-09'
+					title: 'Dubai American Academy Dubai UAE',
+					start: '2017-02-08'
+				},
+				{
+					title: 'RFA Retreat Cabo San Lucas',
+					start: '2017-02-10'
+				},
+				{
+					title: 'RFA Retreat Cabo San Lucas',
+					start: '2017-02-11'
+				},
+				{
+					title: 'RFA Retreat Cabo San Lucas',
+					start: '2017-02-12'
+				},
+				{
+					title: 'RFA Retreat Cabo San Lucas',
+					start: '2017-02-13'
+				},
+				{
+					title: 'RFA Retreat Cabo San Lucas',
+					start: '2017-02-14'
+				},
+				{
+					title: 'RFA Retreat Cabo San Lucas',
+					start: '2017-02-15'
+				},
+				{
+					title: 'Three Rivers Schools Cleves, OH',
+					start: '2017-02-17'
+				},
+				{
+					title: 'Schools on Brink of Greatness SF, NM',
+					start: '2017-02-20'
+				},
+				{
+					title: 'Schools on Brink of Greatness SF, NM',
+					start: '2017-02-21'
+				},
+				{
+					title: 'Schools on Brink of Greatness SF, NM',
+					start: '2017-02-22'
+				},
+				{
+					title: 'South Charlotte MS, Charlotte, NC',
+					start: '2017-03-13'
+				},
+				{
+					title: 'Dubai - 21st Century Assessments',
+					start: '2017-03-12'
+				},
+				{
+					title: 'Dubai - 21st Century Assessments',
+					start: '2017-03-13'
+				},
+				{
+					title: 'ASCD Anaheim Session Title: S',
+					start: '2017-03-27'
 				},
 			]
 		});
@@ -115,6 +171,7 @@
 });
 
 </script>
+<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=58be23786871690011006eef&product=inline-share-buttons"></script>
 </head>
 
 <body class="cal">
@@ -128,8 +185,16 @@
                         <li><a href="books.html">Books</a></li>
                         <li><a href="gifts.html">Gifts</a></li>
                         <li><a href="videos.html">Videos</a></li>
-                        <li><a href="workshops.html">Workshops</a>
+                        <li><a href="workshops.html"> PD Workshops</a>
 							<ul>
+								<li><a href="teachLearn.html">Teaching Learning Equation</a>
+									<ul>
+										<li><a href="teachLearn.html">Assessment is Instruction</a></li>
+										<li><a href="teachLearn.html#beyond">Beyond PBIS</a></li>
+										<li><a href="teachLearn.html#different">Different Brains</a></li>
+										<li><a href="teachLearn.html#equate">Learning Equation</a></li>
+									</ul>
+										   </li>
 								<li><a href="twentyFirst.html">21st Century Learning</a>
 								   <ul>
 									   <li><a href="twentyFirst.html">High Tech,Touch,Thought</a></li>
@@ -143,26 +208,18 @@
 									<li><a href="rtbl.html#deep">Writing is Deep Thinking</a></li>
 									<li><a href="rtbl.html#build">Academic Vocabulary</a></li>
 									<li><a href="rtbl.html#digital">Digital Screen-Age</a></li>
-								  </ul></li>
+									</ul></li>
 								<li><a href="staffroom.html">Staffroom to Classroom</a>
 								<ul>
 									<li><a href="staffroom.html">Professional Learning</a></li>
 									<li><a href="staffroom.html#coach">Adult Learner</a></li>
-								  </ul></li>
-								<li>
-									<a href="teachLearn.html">Teach Learn Equation</a>
-									<ul>
-										<li><a href="teachLearn.html">Assessment is Instruction</a></li>
-										<li><a href="teachLearn.html#beyond">Beyond PBIS</a></li>
-										<li><a href="teachLearn.html#different">Different Brains</a></li>
-										<li><a href="teachLearn.html#equate">Learning Equation</a></li>
-									</ul>
-						      </li>
-						  </ul>
-				      </li>
+									</ul></li>
+								
+										  </ul>
+									    </li>
 						<li><a href="cal.html" class="button alt">Calendar</a></li>
 					</ul>
-			  </nav>
+				</nav>
 			</header>
 <div class="myCalendar">
 	<h1 class="calh1">Robin Fogarty and Associates</h1>
@@ -170,7 +227,7 @@
 		
 	              <ul class="icons">
                         <li><a href="https://twitter.com/RFATeachPD"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://www.facebook.com/RobinFogartyGCC"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.facebook.com/Robin-Fogarty-Associates-117041038323129/"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="https://www.instagram.com/robinfogartyteachpd/"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="https://robinfogartydotcom.wordpress.com"><i class="fa fa-wordpress"></i></a></li>
                 </ul>	
@@ -181,10 +238,11 @@
 			
             
 				<ul class="mailCal">
-                <li><a href="mailto:office@robinfogarty.com">Email us at: info@robinfogarty.com</a></li>
+                <li><a href="mailto:info@robinfogarty.com">Email us at: info@robinfogarty.com</a></li>
 				
 			</ul>
 		</p>
+		<div class="sharethis-inline-share-buttons"></div>
 		<!-- Footer -->
 			<div id="footer">
 				<div class="container">
